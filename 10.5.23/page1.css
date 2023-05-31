@@ -1,0 +1,14 @@
+p { 
+    color: green
+ }
+
+ h2 { color: brown;}
+
+ #footer-header{ 
+    color: blueviolet; }
+
+    .subtitle { color: pink;}
+
+    .subtitle-bg {
+        background-color: greenyellow;
+    }

@@ -1,0 +1,48 @@
+main{
+    width: 800px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 4px 4px 8px 4px rgb(0, 0, 0); /*offset-x offset-y blur-radius spread-radius color */
+    margin: 0 auto;
+}
+
+.card-header{
+    text-align: center;
+    background-color: brown;
+    margin-top: 0;
+    border-bottom: 2px solid green;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.card-body{
+    padding: 12px;
+}
+
+a{
+    color: rgb(12, 14, 10);
+}
+
+.link1:hover{
+    color: lawngreen;
+}
+
+.link1:visited{
+    color: aqua;
+}
+
+.link1:hover{
+    color: rgb(152, 31, 31);
+}
+
+.link2:hover{
+    color: yellow;
+}

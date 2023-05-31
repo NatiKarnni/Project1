@@ -1,0 +1,32 @@
+.container {
+    width: 900px;
+    text-align: left;
+        border: 5px rgb(255, 0, 225) solid;
+    padding: 20px 15px 15px 20px;
+        
+       
+}
+
+section {
+    width: 600px;
+    border: 1px red;
+}
+
+
+
+
+.section2 {
+        margin-left: auto;
+    
+}
+
+.section3 {
+    text-align: left;
+    width: 600px;
+    border: 2px rgb(215, 179, 18) solid;
+    padding: 20px 15px 15px 20px;
+        box-sizing: border-box;
+        margin: 0 auto;
+}
+
+h1 { text-align: center; border: 1px blueviolet;}

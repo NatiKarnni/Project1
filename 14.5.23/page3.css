@@ -1,0 +1,29 @@
+.div1, .div2{
+    border: 1px solid red;
+}
+ span{
+    background-color: blue;
+    border: 4px purple solid;
+    width: 100px;
+ }
+
+ .div1{
+    height: 200px;
+ }
+ .div2{
+    width: 200px;
+    height: 100px;
+    display: inline; /*מתנהג כמו ספאן*/
+ }
+
+ .span2{
+    display: block;
+ }
+
+ .span3{
+    display: inline-block;
+ }
+
+ .span4{
+    display: none;
+ }

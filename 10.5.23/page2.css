@@ -1,0 +1,7 @@
+section h1 { 
+    color: blue;
+}
+
+h1.section1 { background-color: brown;}
+
+.class1, .class2 { color: blueviolet;}

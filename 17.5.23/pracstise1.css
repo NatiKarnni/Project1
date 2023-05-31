@@ -1,0 +1,22 @@
+.container{
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    display: flex; /*הגדרה כפלקסבוקס*/
+    flex-direction: row;
+    justify-content: flex-start; /*ציר ראשי*/
+    align-items: start; /*ציר משני*/
+   /* row-gap: 10px;
+    column-gap: 20px; */
+}
+
+.box{
+    background-color: rgb(245, 127, 24);
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+.box:nth-child(odd){
+    align-self: flex-end;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+</head>
+
+<body>
+    <h1>Validation</h1>
+    <div>
+        <form method="get">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required min="18" max="24" />
+    </div>
+    <div>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" required minlength="5" maxlength="11">
+    </div>
+    <div>
+    <label for="Email">Email</label>
+    <input type="email" id="email" name="email" required />
+    </div>
+    <div>
+        <label for="tel">Telephone</label>
+        <input type="tel" id="tel" name="tel" placeholder="123-1234567" pattern="[0-9]{3}-[0-9]{7}">
+            </div>
+    <br />
+    <button type="submit">Send</button>
+    </form>
+</body>
+<!--!--ריקווירד=חייבים לבחור מספר ואי אפשר לשלוח שדה ריק-->
+<!--min=המינימום מספר שניתן לשלוח-->
+<!--max=המקסימום מספר שניתן לשלוח-->
+<!--minlength=לפחות חמישה תווים שחייב לשלוח-->
+<!--maxlength=המקסימום תווים שניתן לשלוח-->
+<!--pattern=first braces define which numbers can be written, second braces define the amount of numbers to be written, מקף בין המספרים ואז אותו דבר-->
+
+</html>

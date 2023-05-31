@@ -1,0 +1,21 @@
+.root {
+
+    border: 5px solid darkblue;
+    padding: 20px;
+    width: 400px;
+}
+
+.root>div {
+border: 2px green solid;
+padding: 20px 15px 15px 20px;
+width: 400px;
+box-sizing:border-box;
+
+}
+
+.div3 {
+    margin-left: 20px; margin-right: 20px;
+}
+.root .div2 {
+width: 200px;
+margin: 0 auto }

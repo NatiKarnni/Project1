@@ -1,0 +1,11 @@
+.container{
+    width: 80%;
+    height: 90%;
+    border: 2px solid black;
+}
+
+.contained{
+    align-items: center;
+    flex: auto;
+    text-align: center;
+}

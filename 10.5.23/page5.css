@@ -1,0 +1,16 @@
+article p{ color: rgb(28, 70, 2);
+background-color: rgb(139, 129, 148);
+font-size: 24px;
+font-style: italic;
+font-weight: 300;
+line-height: 50px;
+text-decoration: underline;
+text-indent: 40px;
+font-family: pacifico;
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 5px 5px 8px coral;
+    text-align: center;
+}

@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border: 2px solid rgb(255, 13, 0);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > * {
+    border: 1px solid green;
+}
+
+.main-aside {
+    flex-grow: 1;
+    display: flex;
+    
+}
+
+.main-aside aside{
+    width: 10em;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(221, 130, 11);
+    padding: 0.7em;
+    /*display: none;*/
+}
+
+.main-aside main{
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(201, 184, 162);
+    padding-top: 1em;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+}
+
+.main-aside main section{
+    width: 80%;
+    border: 1px solid black;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.main-aside aside>h2{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: -0.5em;
+    
+}
+
+.main-aside ul{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    row-gap: 0.5em;
+    list-style: none;
+    font-size: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1em;
+    justify-content: center;
+    position: absolute;
+    left: -0.7em;
+    top: 7em;
+    
+}
+
+.container header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container header>div{
+    font-size: 2em;
+    padding: 0.2em;
+}
+
+header>nav>ul{
+    display: flex;
+    column-gap: 0.5em;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+    .main-aside aside{
+        display: inherit;
+    }
+
+    
+.menu-icon{
+    display: none;
+}
+}

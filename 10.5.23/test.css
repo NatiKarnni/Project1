@@ -1,0 +1,39 @@
+div {
+    width: 900px;
+    text-align: left;
+        border: 5px rgb(255, 0, 225) solid;
+    padding: 20px 15px 15px 20px;
+        
+       
+}
+
+h1 { text-align: center; font}
+
+.container>section {
+    text-align: left;
+    width: 600px;
+    border: 2px rgb(100, 81, 150) solid;
+    padding: 20px 15px 15px 20px;
+        box-sizing: border-box;
+       margin-left: -19px;
+
+}
+
+.container .section2 {
+    text-align: left;
+    width: 600px;
+    border: 2px rgb(166, 221, 14) solid;
+    padding: 20px 15px 15px 20px;
+        box-sizing: border-box;
+       margin-left: 314px;
+}
+
+.container .section3 {
+    text-align: left;
+    width: 600px;
+    border: 2px rgb(10, 1, 1) solid;
+    padding: 20px 15px 15px 20px;
+        box-sizing: border-box;
+       margin-left: 150px;
+
+}

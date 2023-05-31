@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border: 2px solid rgb(255, 13, 0);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > * {
+    border: 1px solid green;
+}
+
+
+.main-aside h1{
+  font: bold; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4em;
+  font-style: italic;
+  /*position: relative;*/
+  right: 5em;
+
+
+}
+.main-aside {
+    flex-grow: 1;
+    display: flex;
+    
+}
+
+.main-aside aside{
+    width: 25em;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(228, 168, 174);
+    padding: 0.7em;
+    display: none;
+}
+
+.main-aside main{
+    display: flex;
+        flex-grow: 1;
+    background-color: rgb(234, 226, 216);
+    padding-top: 2em;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2em;
+    
+}
+
+.main-aside main section{
+   flex-basis: 100%;
+   height: 10em;
+    width: 50%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border: 1px solid black;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+
+.main-aside main section p{
+    color: rgb(30, 9, 9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    padding: 0.5em;
+}
+
+.main-aside main section:nth-child(3){
+   background-image:url(./apple.jpg);
+}
+
+.main-aside aside>h2{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: -0.5em;
+    text-shadow: 1px 2px 2px black, 2px 2px 2px gray;
+    
+}
+
+.main-aside ul{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    row-gap: 0.5em;
+    list-style: none;
+    font-size: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1em;
+    justify-content: center;
+    position: absolute;
+    left: -0.7em;
+    top: 7em;
+    
+}
+
+.main-aside ul li a:hover{
+   color: beige;
+  
+}
+
+.container header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(93, 189, 189); 
+}
+
+.container header>div{
+    font-size: 2em;
+    padding: 0.2em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+}
+
+.container header div:hover{
+    color: darkolivegreen;
+}
+
+header>nav>ul{
+    display: flex;
+    column-gap: 0.5em;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table1 tr>td:nth-child(2){
+    
+   border: 4px black;
+    background-image: url(./blondereadhead.jpg);
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.table1 tr>td:nth-child(1){
+    
+    border: 4px black;
+     background-image: url(./simplyred.jpg);
+     font-size: 1em;
+     padding: 0.5em;
+ 
+}
+
+ .table1 tr>td:nth-child(3){
+    
+    border: 4px black;
+     background-image: url(./justblonde.jpg);
+     font-size: 1em;
+     padding: 0.5em;
+ }
+
+
+
+footer{
+    display: flex;
+    background-color: dimgrey;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    justify-content: space-around;
+}
+
+@media (min-width: 700px){ /*מצב טאבלט*/
+    .main-aside aside{
+display: unset;
+    };
+    .main-aside section{
+        flex-basis: 49%;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {   /*מצב טלפון*/ 
+    .main-aside aside{
+        display: inherit;
+    }
+
+    .menu-icon{
+        
+        display: none;
+    }
+}
+
+@media(min-width:900px){
+
+}

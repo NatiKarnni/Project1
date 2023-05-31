@@ -1,0 +1,26 @@
+.container{
+    border: 2px solid red;
+    width: 600px;
+    height: 500px;
+    display: flex; /*הגדרה כפלקסבוקס*/
+    flex-direction: row;
+    justify-content: flex-start; /*ציר ראשי*/
+    align-items: flex-start; /*ציר משני*/
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.box{
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: 50px;
+}
+
+.box:nth-child(3){
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.box:nth-child(4){
+    flex-grow: 2;
+}
